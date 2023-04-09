@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Bootcamp SQA/JCUjianMinggu4/src/test/java/com/juaracoding/appium/TestExpense.java">
+        <classes>
+            <class name="test.appium.TestExpense">
+                <methods>
+                    <include name="addExpanceValid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Bootcamp SQA/JCUjianMinggu4/src/test/java/com/juaracoding/appium/TestIncome.java">
+        <classes>
+            <class name="test.appium.TestIncome">
+                <methods>
+                    <include name="addIncomeValid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
